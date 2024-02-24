@@ -1,0 +1,116 @@
+[{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "creator": 1,
+        "content": "What a great post!",
+        "content_type": 8,
+        "object_id": 1,
+        "created_at": "2024-02-02T07:28:43.876Z",
+        "modified_at": "2024-02-02T07:28:43.891Z"
+    }
+}, {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+        "creator": 1,
+        "content": "I like myself!",
+        "content_type": 4,
+        "object_id": 1,
+        "created_at": "2024-02-02T07:28:43.876Z",
+        "modified_at": "2024-02-02T07:28:43.891Z"
+    }
+}, {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "creator": 1,
+        "content": "Wow!",
+        "content_type": 8,
+        "object_id": 1,
+        "created_at": "2024-02-06T19:13:34.518Z",
+        "modified_at": "2024-02-06T19:13:34.518Z"
+    }
+}, {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "creator": 1,
+        "content": "Hey, babe",
+        "content_type": 8,
+        "object_id": 1,
+        "created_at": "2024-02-17T11:42:32.376Z",
+        "modified_at": "2024-02-17T11:42:32.376Z"
+    }
+}, {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+        "value": "some-tag"
+    }
+}, {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+        "value": "another-tag"
+    }
+}, {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "author": 1,
+        "created_at": "2024-01-31T19:46:31.162Z",
+        "modified_at": "2024-02-05T07:24:38.596Z",
+        "published_at": "2024-02-05T07:24:33Z",
+        "title": "Some title",
+        "slug": "some-title",
+        "summary": "Some summary",
+        "content": "Some content",
+        "tags": [1]
+    }
+}, {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "author": 1,
+        "created_at": "2024-02-17T14:41:47.779Z",
+        "modified_at": "2024-02-17T14:41:47.779Z",
+        "published_at": "2024-02-17T14:40:55Z",
+        "title": "Good news everyone!",
+        "slug": "good-news-everyone",
+        "summary": "I'm big, i'm blue",
+        "content": "AND I'm BACK",
+        "tags": [1, 2]
+    }
+}, {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "author": 1,
+        "created_at": "2024-02-17T14:42:12.028Z",
+        "modified_at": "2024-02-17T14:42:12.028Z",
+        "published_at": "2024-02-17T14:41:51Z",
+        "title": "Sad news, everyone",
+        "slug": "sad-news-everyone",
+        "summary": "I'm ohkay",
+        "content": "Feeling well",
+        "tags": [2]
+    }
+}, {
+    "model": "blango_auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$NWVaTFAyTldiSUhYcGRwRzhMTG5GUg$axUo7WQxl+HA6526P0/znw",
+        "last_login": "2024-02-17T18:18:17.606Z",
+        "is_superuser": true,
+        "username": "codio",
+        "first_name": "",
+        "last_name": "",
+        "email": "codio@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-01-31T19:05:02.878Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}]
