@@ -20,6 +20,9 @@ class Tag(models.Model):
     def __str__(self):
         return self.value
 
+    class Meta:
+        ordering = ["value"]
+
 
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.PROTECT)
@@ -35,6 +38,10 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    class Meta:
+        ordering = ["created_at"]
+
 
 class AuthorProfile(models.Model):
   user = models.OneToOneField(
