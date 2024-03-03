@@ -102,13 +102,17 @@ class Dev(Configuration):
         'rest_framework.authtoken',
         'drf_yasg',
         'django_filters',
-        # 'debug_toolbar',
+        'versatileimagefield',
+        'debug_toolbar',
     ]
+
+    MEDIA_ROOT = BASE_DIR / "media"
+    MEDIA_URL = "/media/"
 
 
 
     MIDDLEWARE = [
-        # "debug_toolbar.middleware.DebugToolbarMiddleware",
+        "debug_toolbar.middleware.DebugToolbarMiddleware",
         'django.middleware.security.SecurityMiddleware',
         'django.contrib.sessions.middleware.SessionMiddleware',
         'django.middleware.common.CommonMiddleware',
